@@ -1,0 +1,14 @@
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/bin/Debug/net10.0/Hello_World
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/bin/Debug/net10.0/Hello_World.deps.json
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/bin/Debug/net10.0/Hello_World.runtimeconfig.json
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/bin/Debug/net10.0/Hello_World.dll
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/bin/Debug/net10.0/Hello_World.pdb
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/Hello_World.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/Hello_World.AssemblyInfoInputs.cache
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/Hello_World.AssemblyInfo.cs
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/Hello_World.csproj.CoreCompileInputs.cache
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/Hello_World.dll
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/refint/Hello_World.dll
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/Hello_World.pdb
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/Hello_World.genruntimeconfig.cache
+/Users/adrianwu/Downloads/School Project/School Project/Codes/Hello_World/obj/Debug/net10.0/ref/Hello_World.dll
