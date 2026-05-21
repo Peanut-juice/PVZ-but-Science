@@ -1,6 +1,21 @@
+using UnityEngine;
 public abstract class Compound : MonoBehaviour {
-    public int cost, health;
-    public float attackCooldown;
-    protected abstract void Attack();
-    void Update() { }
+    public int cost;
+    public float attackCooldown, health, placementCooldown;
+    public float X { get; private set; }
+    public float Y { get; private set; }
+    protected virtual void Awake() {
+        X = transform.position.x;
+        Y = transform.position.y;
+    }
+    public void isEaten(float damage) {
+        health -= damage;
+        if (health <= 0) {
+            Destroy(gameObject);
+        }
+    }
+    protected abstract void attack();
+    void Update() { 
+        
+    }
 }
