@@ -21,7 +21,15 @@ public abstract class Element : MonoBehaviour {
             Destroy(gameObject);
         }
     }
+    protected void attack() {
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, 0.5f);
+        if (hit != null && hit.GetComponent<Compound>() != null)
+        {
+            hit.GetComponent<Compound>().isEaten(damage);
+        }
+    }
     void Update() { 
+        attack();
         moveLeft();
     }
 }
