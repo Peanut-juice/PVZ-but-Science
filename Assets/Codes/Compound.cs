@@ -1,7 +1,7 @@
 using UnityEngine;
 public abstract class Compound : MonoBehaviour {
     public int cost;
-    public float attackCooldown, health, placementCooldown;
+    public float attackCooldown, health, placementCooldown, timer;
     public float X { get; private set; }
     public float Y { get; private set; }
     protected virtual void Awake() {
@@ -16,6 +16,6 @@ public abstract class Compound : MonoBehaviour {
     }
     protected abstract void attack();
     void Update() { 
-        
+        attack();
     }
 }
