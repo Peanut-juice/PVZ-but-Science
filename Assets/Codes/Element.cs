@@ -1,8 +1,14 @@
 using UnityEngine;
 public abstract class Element : MonoBehaviour {
     public float speed, health, damage, drop;
-    public float X { get; private set; }
-    public float Y { get; private set; }
+    public float X { 
+        get; 
+        private set; 
+    }
+    public float Y { 
+        get; 
+        private set; 
+    }
     protected virtual void Awake() {
         X = transform.position.x;
         Y = transform.position.y;
