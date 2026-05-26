@@ -1,5 +1,5 @@
 using UnityEngine;
-public class H2O : Compound {
+public class Dihydrogen_Monoxide : Compound {
     protected override void attack() {
         timer += Time.deltaTime;
         if (timer >= attackCooldown) {
